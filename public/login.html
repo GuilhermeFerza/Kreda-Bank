@@ -1,0 +1,82 @@
+<html lang="pt-br" webcrx="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Kreda Bank is a premium digital bank offering secure, innovative financial solutions for individuals and businesses. Experience modern banking with style, trust, and efficiency.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/assets/favicon.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <title>Kreda</title>
+    </head>
+    <body>
+        <header>
+            <div class="esquerda-header">
+                <img class="icon" src="/assets/favicon.png" alt="kreda's icon" draggable="false">
+            </div>
+            <div class="meio-header">
+                <a href="index.html"><span>K</span>REDA</a>
+            </div>
+            <div class="direita-header">
+                <nav>
+                    <a>Home</a>
+                    <a>Content</a>
+                    <a href="login.html">Login</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="login-space">
+                <div id="login" class="login-box">
+                    <div class="Login-text">
+                        <h1>Log In</h1>
+                        <p>Stay connected to your financial data</p>
+                    </div>
+                        <form id="meuFormularioLogin" class="login-ctrl">
+                        <label for="email" class="emaillabel">Your Email: </label>
+                        <input class="email" name="email" type="email" placeholder="type your email" required/>
+                        <label for="password" class="pwlabel">Your Password: </label>
+                        <input class="pw" name="password" type="password" placeholder="type your password" required/>
+                        <button class="submit" type="submit">submit</button>
+                    </form>    
+                    <div class="sign-pw">
+                        <p class="signupbut">Don't have an account</p>
+                        <p>Forgot password?</p>
+                    </div>
+                </div>
+                <div id="signup" class="login-box">
+                    <div class="Login-text">
+                        <h1>Sign Up</h1>
+                        <p>Stay connected to your financial data</p>
+                    </div>
+                    <form action="/register" method="POST" id="meuFormularioSignUp" class="login-ctrl">
+                        <div class="names">
+                            <label>type your name: 
+                                <input name="name">
+                            </label>
+                            <label>type your surname
+                                <input name="surname">
+                            </label>
+                        </div>
+                        <label for="email">type your email</label>
+                        <input name="email" type="email">
+                        <label for="password">type your password</label>
+                        <input name="password" type="password">
+                        <label for="phone">type your phone</label>
+                        <input name="phone" type="number">
+                        <button class="submit" type="submit">submit</button>
+                    </form>    
+                    <div class="sign-pw">
+                        <p class="loginbut">Already have an account</p>
+                        <p>Forgot password?</p>
+                    </div>
+                </div>
+            </section>
+            <aside>
+
+            </aside>
+        </main>
+        <footer>
+            ©Kreda - all rights reserved 2025
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
